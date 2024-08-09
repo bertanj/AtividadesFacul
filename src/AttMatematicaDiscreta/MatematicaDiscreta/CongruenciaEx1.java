@@ -1,4 +1,4 @@
-package MatematicaDiscreta;
+package AttMatematicaDiscreta.MatematicaDiscreta;
 
 public class CongruenciaEx1 {
     public static void main(String[] args) {

@@ -1,8 +1,10 @@
-package POOEntrega;
+package AttPooEntrega;
 
 public abstract class ContaAtt {
     protected String titular;
     protected double saldo;
+    protected ContaPremium contaPremium;
+    protected ContaBasicaAtt contaBasica;
 
     public ContaAtt(String titular) {
         this.titular = titular;
@@ -28,4 +30,5 @@ public abstract class ContaAtt {
     public abstract void depositar(double valor);
 
     public abstract void sacar(double valor);
+    public abstract void transferir(double valor, ContaAtt destinatario);
 }

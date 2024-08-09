@@ -1,4 +1,4 @@
-package POO;
+package AttPoo;
 
 public class ContaCorrente extends Conta {
     public ContaCorrente(String titular){

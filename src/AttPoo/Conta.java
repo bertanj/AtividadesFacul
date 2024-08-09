@@ -1,4 +1,4 @@
-package POO;
+package AttPoo;
 
 public abstract class Conta {
     protected String titular;

@@ -1,4 +1,4 @@
-package POO;
+package AttPoo;
 
 public class MainConta {
     public static void main(String[] args) {

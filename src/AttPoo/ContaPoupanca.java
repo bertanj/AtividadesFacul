@@ -1,4 +1,4 @@
-package POO;
+package AttPoo;
 
 public class ContaPoupanca extends Conta {
     private double taxaJuros;
