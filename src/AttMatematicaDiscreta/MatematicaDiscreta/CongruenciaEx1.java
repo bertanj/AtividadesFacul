@@ -6,7 +6,7 @@ public class CongruenciaEx1 {
             if(((i - 6)%13) == 0){
                 System.out.println("O número " + i + " é congruente a 6 mod 13!");
 
-            }
+            } //Alterando branch para testes
         }
     }
 }
