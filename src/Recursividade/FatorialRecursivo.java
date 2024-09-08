@@ -2,7 +2,7 @@ package Recursividade;
 
 public class FatorialRecursivo {
     public static int fatorial(int num) {
-        if(num == 0){
+        if(num == 0 || num == 1){
             return 1;
         }else {
             return fatorial(num - 1) * num;

@@ -14,7 +14,7 @@ import java.util.Scanner;
             }
 
             System.out.print(matriz[indiceLinha][indiceColuna]); //Printando os valores na tela
-            matrizRecursiva(matriz, indiceLinha, indiceColuna+1); //Chamada do método para acrescentar o indice coluna e percorrer todos os valores da coluna
+            matrizRecursiva(matriz, indiceLinha, indiceColuna+1); //Chamada do método para acrescentar o indice coluna e percorrer todos os valores da coluna|
         }
 
 
